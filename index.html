@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="flex justify-center min-h-screen items-center bg-gray-900">
+    <div class="container bg-gray-800 p-5 rounded w-sm">
+        <h3 class="text-2xl text-white">Products</h3>
+        <div class="text-white" id="product-list"></div>
+        <h3 class="text-xl text-white mt-3">Shopping Cart</h3>
+        <div id="cart-items">
+            <p id="empty-cart" class="text-white text-sm mt-3">Your cart is empty!</p>
+        </div>
+        <div id="cart-total" class="hidden text-end">
+            <p class="text-white">Total : <span id="total-price">$0.00</span></p>
+            <button class="bg-purple-700 text-white px-3 py-1 rounded" id="checkout-btn">Checkout</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
