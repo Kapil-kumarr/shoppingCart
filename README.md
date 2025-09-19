@@ -5,9 +5,11 @@ A simple shopping cart web application built with HTML, JavaScript, and Tailwind
 ## Features
 
 - Displays a list of products with prices.
-- Allows users to add products to a shopping cart.
-- Shows the cart contents and total price.
-- Checkout button to clear the cart.
+- Add products to a shopping cart.
+- Cart contents and total price update automatically.
+- Remove individual items from the cart.
+- Cart state is saved in your browser (localStorage).
+- Checkout button clears the cart and resets the total.
 
 ## Getting Started
 
@@ -28,6 +30,7 @@ README.md       # Project documentation
 
 - Click "Add to Cart" to add a product.
 - The cart updates with selected items and total price.
+- Click "Remove" to delete an item from the cart.
 - Click "Checkout" to clear the cart.
 
 ## Customization
@@ -41,4 +44,4 @@ README.md       # Project documentation
 
 ---
 
-© 2025 Kapil
+© 2024 Kapil kumar
